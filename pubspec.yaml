@@ -1,0 +1,39 @@
+name: task_cinema_app
+description: "Movie Discovery App."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.0
+  flutter_bloc: ^9.1.1
+  dio: ^5.9.0
+  cached_network_image: ^3.4.1
+  equatable: ^2.0.7
+  shimmer: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/static_profile/
+    - assets/static_icons/

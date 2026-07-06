@@ -1,0 +1,5 @@
+class Env {
+  static const tmdbApiKey = String.fromEnvironment(
+    'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjOTg1YTE1MjU1ZDZiODIyM2RmYWY4NTUyNWI1NGE1MCIsIm5iZiI6MTc4MzM0MDg0My40MDYwMDAxLCJzdWIiOiI2YTRiOWYyYmEwYzJmYzc3ZDkzYTkwMWYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.fVZu2BG1tDumU5whLafBGFMZsMmACmA0kf9Yf2UKEwM',
+  );
+}
